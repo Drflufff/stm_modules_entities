@@ -45,7 +45,7 @@ hook.Add( "OnDisableGravityDeckRemoved", "GravGen.OnDisableGravityDeckRemoved", 
 end)
 
 function ENT:Initialize()
-	self:SetModel( "models/props_wasteland/laundry_washer003.mdl" )
+	self:SetModel( "models/props/console_control_round.mdl" )
 	self:PhysicsInit( SOLID_VPHYSICS )
 	self:SetMoveType( MOVETYPE_NONE )
 	self:SetSolid( SOLID_VPHYSICS )

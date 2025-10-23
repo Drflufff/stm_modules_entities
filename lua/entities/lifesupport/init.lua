@@ -31,7 +31,7 @@ hook.Add( "OnDisableLifeSupportDeckRemoved", "DisabledDecks.Removed", function(e
 end)
 
 function ENT:Initialize()
-	self:SetModel( "models/ships/enterprise/wallmount_02.mdl" )
+	self:SetModel( "models/props/atmospherecontrol.mdl" )
 	self:PhysicsInit( SOLID_VPHYSICS )
 	self:SetMoveType( MOVETYPE_NONE )
 	self:SetSolid( SOLID_VPHYSICS )
